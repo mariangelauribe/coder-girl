@@ -1,0 +1,116 @@
+header{
+	background: #F2F2F2;
+}
+
+header p{
+	padding-top: 10px;
+}
+
+header ul{
+	float: right;
+	padding-top: 10px;
+}
+
+li a{
+	float: right;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.inicio{
+	background: url(../img/home.jpg);
+	padding: 250px 0;
+}
+
+h1{
+	color: white;
+}
+
+button{
+	padding: 5px;
+	border: 0;
+	background: #5882FA;
+	margin: 10px;
+	color: white;
+	border-radius: 4px;
+}
+
+.primero{
+	padding: 0 50px;
+}
+
+.documental{
+	padding: 50px 10px;
+}
+
+h2{
+	padding: 10px;
+}
+
+.hackathon{
+	background: #F7FE2E;
+}
+
+.hackathon img{
+	width: 90%;
+	margin: 40px;
+}
+
+.texto{
+	padding: 50px 5px;
+}
+
+.contacto img{
+	width: 100%;
+	margin: 50px 0;
+}
+
+.contacto form{
+	width: 60%;
+}
+
+.contacto textarea{
+	height: 150px;
+	color: #A4A4A4;
+}
+
+footer{
+	background: #5BA5BA;
+}
+
+footer p{
+	padding: 20px;
+	color: white;
+}
+
+footer p span{
+	color: yellow;
+}
+
+/* ---------------------- MEDIAS -----------------------------------*/
+
+@media screen and (max-width: 768px){
+	.primero{
+		padding: 0 325px;
+	}
+} 
+
+@media screen and (max-width: 414px){
+	.primero{
+		padding: 0 150px;
+	}
+	.hackathon img{
+	margin: 40px 10px;
+	}
+} 
+
+@media screen and (max-width: 360px){
+	.primero{
+		padding: 0 120px;
+	}
+	.hackathon img{
+	margin: 40px 10px;
+	}
+} 
