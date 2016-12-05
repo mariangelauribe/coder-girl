@@ -2,10 +2,6 @@ header{
 	background: #F8F8F8;
 }
 
-header p{
-	padding-top: 10px;
-}
-
 header ul{
 	float: right;
 	padding-top: 10px;
@@ -37,8 +33,9 @@ h1{
 	color: white;
 }
 
-.inico p{
-
+.inicio p{
+	text-align: center;
+	margin: 0 110px;
 }
 
 button{
