@@ -1,5 +1,5 @@
 header{
-	background: #F2F2F2;
+	background: #F8F8F8;
 }
 
 header p{
@@ -9,6 +9,15 @@ header p{
 header ul{
 	float: right;
 	padding-top: 10px;
+}
+
+header .navbar{
+	margin: 0; !important
+	border: 0; !important
+}
+
+.navbar-nav{
+	float: right;
 }
 
 li a{
@@ -26,6 +35,10 @@ li a{
 
 h1{
 	color: white;
+}
+
+.inico p{
+
 }
 
 button{
@@ -71,6 +84,10 @@ h2{
 	width: 60%;
 }
 
+.contacto h3, h6, p{
+	width: 60%;
+}
+
 .contacto textarea{
 	height: 150px;
 	color: #A4A4A4;
@@ -87,6 +104,10 @@ footer p{
 
 footer p span{
 	color: yellow;
+}
+
+.contact{
+	padding: 50px;
 }
 
 /* ---------------------- MEDIAS -----------------------------------*/
